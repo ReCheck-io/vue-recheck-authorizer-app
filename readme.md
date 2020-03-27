@@ -1,8 +1,10 @@
-# recheck-test-app
+# vue-recheck-authorize-app
+
+#### Package: [vue-recheck-authorizer](https://github.com/ReCheck-io/vue-recheck-authorizer)
 
 ## Project setup
 ```
-npm run install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
