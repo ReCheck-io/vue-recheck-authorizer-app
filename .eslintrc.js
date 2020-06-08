@@ -5,7 +5,11 @@ module.exports = {
   },
   extends: ["plugin:vue/essential", "eslint:recommended", "@vue/prettier"],
   parserOptions: {
-    parser: "babel-eslint"
+    parser: "babel-eslint",
+    ecmaFeatures: {
+      "sourceType": "module",
+      "modules": true
+    }
   },
   rules: {
     "no-console": "off",

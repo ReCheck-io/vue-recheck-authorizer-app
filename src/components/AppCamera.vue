@@ -1,5 +1,8 @@
 <template>
-  <scanner @qr-decode="onDecode" :handledByComponent="handledByComponent" />
+  <recheck-scanner
+    @qr-decode="onDecode"
+    :handledByComponent="handledByComponent"
+  />
 </template>
 
 <script>

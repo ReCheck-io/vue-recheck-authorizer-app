@@ -1,5 +1,5 @@
 <template>
-  <identity classes="my-class" />
+  <recheck-identity />
 </template>
 
 <script>
@@ -8,12 +8,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.my-class {
-  .card-footer {
-    button:first-child {
-      background-color: green;
-    }
-  }
-}
-</style>
+<style lang="scss"></style>

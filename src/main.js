@@ -3,6 +3,8 @@ import App from "./App.vue";
 import VueQrcodeReader from "vue-qrcode-reader";
 import VueRecheckAuthorizer from "vue-recheck-authorizer";
 
+import "../node_modules/vue-recheck-authorizer/dist/main.css";
+
 import { store } from "./store";
 import { router } from "./router";
 
