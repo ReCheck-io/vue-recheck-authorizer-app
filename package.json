@@ -4,15 +4,20 @@
   "name": "vue-recheck-authorizer-app",
   "description": "This application is just for testing ReCheck Authorizer package.",
   "scripts": {
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "dev": "vue-cli-service serve",
-    "format": "prettier --write 'src/**/*.{js,vue}'"
+    "serve:local": "vue-cli-service serve --mode localhost",
+    "serve:beta": "vue-cli-service serve --mode beta",
+    "serve": "vue-cli-service serve --mode beta",
+    "build": "vue-cli-service build --mode beta",
+    "build:beta": "vue-cli-service build --mode beta",
+    "build:local": "vue-cli-service build --mode local",
+    "format": "prettier --write 'src/**/*.{js,vue}'",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
-    "vue-qrcode-reader": "^2.1.1",
+    "vue-qrcode-reader": "^2.3.0",
+    "vue-recheck-authorizer": "^1.0.3",
     "vue-router": "^3.1.6",
     "vuex": "^3.1.2"
   },
