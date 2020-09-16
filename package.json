@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "name": "vue-recheck-authorizer-app",
   "description": "This application is just for testing ReCheck Authorizer package.",
+  "author": "ReCheck BV <info@recheck.io>",
   "scripts": {
     "serve:local": "vue-cli-service serve --mode localhost",
     "serve:beta": "vue-cli-service serve --mode beta",
